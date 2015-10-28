@@ -14,15 +14,15 @@
             <button id="add">Add</button>
         </form>
       <div class="showContainer">
+      <script id="showTemplate" type="text/template">
         <img src="img/placeholder.png"/>
           <ul>
-            <li>Gilmore Girls</li>
-            <li>Drama</li>
-            <li>★★★★★</li>
+            <li><%= title %></li>
+            <li><%= genre %></li>
+            <li><%= stars %></li>
           </ul>
+          <button id="delete">Delete</button>
         </div>
-      <script id="showTemplate" type="text/template">
-      <!-- replace the sample above with a template -->
       </script>
     </div>
         <script src="js/lib/jquery.min.js"></script>
