@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'rails', '4.2.4'
+gem 'rails-api'
+gem 'pg'
+gem 'pry-rails'
+gem 'sprockets-rails'
+gem 'active_model_serializers'
+gem 'rack-cors'
+
+group :development, :test do
+  gem 'byebug'
+end
